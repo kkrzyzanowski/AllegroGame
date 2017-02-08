@@ -79,6 +79,8 @@ void GamePlay::menu_action()
         {
         case 0:
             start_game = true;
+            Interface::instructionGame();
+            timeCount::countTime(10.0);
             game();
             break;
         case 1:

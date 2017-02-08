@@ -17,3 +17,15 @@ bool timeCount::isDiffEnough(long timeStart, long timePast, double period)
     else
         return false;
 }
+void timeCount::countTime(double period)
+{
+     time_t timer;
+    time_t loop_timer;
+
+    time(&timer);
+    time(&loop_timer);
+    while(!isDiffEnough(loop_timer, timer, period))
+    {
+        time(&loop_timer);
+    }
+}

@@ -7,10 +7,12 @@ class timeCount
     public:
         timeCount();
         static bool isDiffEnough(long timeStart, long timePast, double period);
+        static void countTime(double period);
         virtual ~timeCount();
 
     protected:
     private:
+
 };
 
 #endif // TIMECOUNT_H

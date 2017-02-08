@@ -261,22 +261,25 @@
 	<allegro5/allegro.h>
 	<allegro5/keyboard.h>
 
-1486319367 source:c:\projekty_moje\allegr0_test\src\gameplay.cpp
+1486473892 source:c:\projekty_moje\allegr0_test\src\gameplay.cpp
 	"GamePlay.h"
 
-1486305751 c:\projekty_moje\allegr0_test\include\initializer.h
+1486473892 c:\projekty_moje\allegr0_test\include\initializer.h
 	<allegro5/allegro.h>
 	<allegro5/allegro_font.h>
 	<allegro5/allegro_ttf.h>
 	<allegro5/allegro_native_dialog.h>
 
-1484839563 c:\projekty_moje\allegr0_test\include\interface.h
+1486508474 c:\projekty_moje\allegr0_test\include\interface.h
+	<vector>
+	<string>
+	<cmath>
 	"Initializer.h"
 
-1486305750 source:c:\projekty_moje\allegr0_test\src\initializer.cpp
+1486555807 source:c:\projekty_moje\allegr0_test\src\initializer.cpp
 	"Initializer.h"
 
-1486319494 source:c:\projekty_moje\allegr0_test\src\interface.cpp
+1486557451 source:c:\projekty_moje\allegr0_test\src\interface.cpp
 	"Interface.h"
 
 1486305988 source:c:\projekty_moje\allegr0_test\src\interfacegame.cpp
@@ -291,9 +294,9 @@
 1362323900 c:\allegro 5\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro5.h
 	"allegro.h"
 
-1486301665 c:\projekty_moje\allegr0_test\include\timecount.h
+1486474151 c:\projekty_moje\allegr0_test\include\timecount.h
 	<time.h>
 
-1486301665 source:c:\projekty_moje\allegr0_test\src\timecount.cpp
+1486474151 source:c:\projekty_moje\allegr0_test\src\timecount.cpp
 	"timeCount.h"
 

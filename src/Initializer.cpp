@@ -56,7 +56,14 @@ Initializer::~Initializer()
                                 "Blad", "Inicjalizacja failed",
                                 "Error 3", NULL, ALLEGRO_MESSAGEBOX_ERROR);
         }
+        fontTwo = al_load_ttf_font("BenchNine-Regular.otf", 40, 0);
+        if(!fontTwo)//Twocionka
 
+        {
+            al_show_native_message_box(al_get_current_display(),
+                                "Blad", "Inicjalizacja failed",
+                                "Error 3", NULL, ALLEGRO_MESSAGEBOX_ERROR);
+        }
          //okno
           display = al_create_display(WIDTH,HEIGHT);
         if(!display)
@@ -85,4 +92,8 @@ ALLEGRO_EVENT_QUEUE* Initializer::getAllegro_Event_Queue()
 ALLEGRO_FONT* Initializer::getFont()
 {
     return font;
+}
+ALLEGRO_FONT* Initializer::getFontTwo()
+{
+    return fontTwo;
 }

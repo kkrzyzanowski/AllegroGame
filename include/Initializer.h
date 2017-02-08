@@ -22,9 +22,11 @@ class Initializer
         ALLEGRO_DISPLAY* getAllegro_Display();
         ALLEGRO_EVENT_QUEUE* getAllegro_Event_Queue();
         ALLEGRO_FONT* getFont();
+        ALLEGRO_FONT* getFontTwo();
     protected:
         ALLEGRO_TIMER *timer = NULL;
         ALLEGRO_FONT *font;
+        ALLEGRO_FONT *fontTwo;
         ALLEGRO_DISPLAY *display = NULL;
         ALLEGRO_EVENT_QUEUE *event_queue;
 
