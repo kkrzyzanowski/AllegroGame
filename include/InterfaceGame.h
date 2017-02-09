@@ -1,9 +1,12 @@
 #ifndef INTERFACEGAME_H
 #define INTERFACEGAME_H
 #include <vector>
+#include <string>
+#include <sstream>
 #include <algorithm>
 #include <allegro5/allegro_native_dialog.h>
 #include "Initializer.h"
+#include "Player.h"
 using namespace std;
 class InterfaceGame
 {
@@ -26,7 +29,7 @@ class InterfaceGame
         int getValue_apples();
         bool isChecked(int index);
         void refresh_map();
-        void GameOver();
+        void GameOver(Player player);
         int apple_size;
 
     protected:

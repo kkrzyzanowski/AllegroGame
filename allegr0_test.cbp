@@ -169,6 +169,7 @@
 		<Unit filename="include/Initializer.h" />
 		<Unit filename="include/Interface.h" />
 		<Unit filename="include/InterfaceGame.h" />
+		<Unit filename="include/Player.h" />
 		<Unit filename="include/timeCount.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Control.cpp" />
@@ -176,6 +177,7 @@
 		<Unit filename="src/Initializer.cpp" />
 		<Unit filename="src/Interface.cpp" />
 		<Unit filename="src/InterfaceGame.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Unit filename="src/timeCount.cpp" />
 		<Extensions>
 			<code_completion />

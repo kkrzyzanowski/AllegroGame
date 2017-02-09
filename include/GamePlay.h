@@ -7,6 +7,7 @@
 #include "Interface.h"
 #include "InterfaceGame.h"
 #include "timeCount.h"
+#include "Player.h"
 using namespace std;
 class GamePlay: public Control, public Interface
 {
@@ -40,6 +41,7 @@ class GamePlay: public Control, public Interface
         time_t timer;
         time_t loop_timer;
         bool exit_game; // z gry do menu
+        Player player;
 
 };
 #endif // GAMEPLAY_H

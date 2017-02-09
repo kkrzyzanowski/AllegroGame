@@ -105,6 +105,7 @@ void GamePlay::addFoundApple(int index)
         {
             initGame->checked_apples.push_back(index);
              checked++;
+            player.addPoints();
             mouse_checked=false;
         }
 }
@@ -147,7 +148,7 @@ void GamePlay::game()
     time(&loop_timer);
     while(!timeCount::isDiffEnough(loop_timer, timer, 10.0))
     {
-        initGame->GameOver();
+        initGame->GameOver(player);
         time(&loop_timer);
     }
     back_to_menu();
@@ -158,6 +159,7 @@ void GamePlay::back_to_menu()
     reset_keys();
     initialize_variables();
     start_game = false;
+    player.clearPoints();
 }
 void GamePlay::initialize_variables()
 {
@@ -167,4 +169,5 @@ void GamePlay::initialize_variables()
     mouse_checked = false;
     exit_game = false;
     initGame->apples.clear();
+
 }

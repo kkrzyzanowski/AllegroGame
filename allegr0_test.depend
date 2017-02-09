@@ -244,7 +244,7 @@
 	<allegro5/allegro_ttf.h>
 	<allegro5/allegro_native_dialog.h>
 
-1486319045 c:\projekty_moje\allegr0_test\include\gameplay.h
+1486596541 c:\projekty_moje\allegr0_test\include\gameplay.h
 	<vector>
 	<thread>
 	<stdlib.h>
@@ -252,6 +252,7 @@
 	"Interface.h"
 	"InterfaceGame.h"
 	"timeCount.h"
+	"Player.h"
 
 1486319045 source:c:\projekty_moje\allegr0_test\src\control.cpp
 	"Control.h"
@@ -261,7 +262,7 @@
 	<allegro5/allegro.h>
 	<allegro5/keyboard.h>
 
-1486473892 source:c:\projekty_moje\allegr0_test\src\gameplay.cpp
+1486654561 source:c:\projekty_moje\allegr0_test\src\gameplay.cpp
 	"GamePlay.h"
 
 1486473892 c:\projekty_moje\allegr0_test\include\initializer.h
@@ -279,17 +280,20 @@
 1486555807 source:c:\projekty_moje\allegr0_test\src\initializer.cpp
 	"Initializer.h"
 
-1486557451 source:c:\projekty_moje\allegr0_test\src\interface.cpp
+1486557710 source:c:\projekty_moje\allegr0_test\src\interface.cpp
 	"Interface.h"
 
 1486305988 source:c:\projekty_moje\allegr0_test\src\interfacegame.cpp
 	"InterfaceGame.h"
 
-1486319871 c:\projekty_moje\allegr0_test\include\interfacegame.h
+1486660537 c:\projekty_moje\allegr0_test\include\interfacegame.h
 	<vector>
+	<string>
+	<sstream>
 	<algorithm>
 	<allegro5/allegro_native_dialog.h>
 	"Initializer.h"
+	"Player.h"
 
 1362323900 c:\allegro 5\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro5.h
 	"allegro.h"
@@ -299,4 +303,10 @@
 
 1486474151 source:c:\projekty_moje\allegr0_test\src\timecount.cpp
 	"timeCount.h"
+
+1486596633 c:\projekty_moje\allegr0_test\include\player.h
+	<string>
+
+1486596502 source:c:\projekty_moje\allegr0_test\src\player.cpp
+	"Player.h"
 

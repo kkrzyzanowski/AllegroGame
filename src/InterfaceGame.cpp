@@ -78,11 +78,19 @@ void InterfaceGame::clear_positions()
     pos_x.clear();
     pos_y.clear();
 }
-void InterfaceGame::GameOver()
+void InterfaceGame::GameOver(Player player)
 {
+    string text = player.getName();
+    text.append(" zdobyl ");
+    ostringstream os;
+    os<<player.getPoints();
+    text.append(os.str());
+    text.append(" puntkow");
     al_clear_to_color(al_map_rgb(0,0,0));
     al_draw_text(font, al_map_rgb(0,100,200), WIDTH/2, HEIGHT/2-font->height,
                  ALLEGRO_ALIGN_CENTER, "GAME OVER");
+    al_draw_text(font, al_map_rgb(0,100,200), WIDTH/2, HEIGHT-(HEIGHT/10)-font->height,
+                 ALLEGRO_ALIGN_CENTER, text.c_str());
     al_flip_display();
 
 }
